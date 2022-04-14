@@ -21391,9 +21391,51 @@ nav .nav-left a {
   padding: 4rem 0;
   align-items: center;
 }
+.display-grid .grid-4-title {
+  align-self: flex-start;
+  padding: 3rem 0;
+}
+.display-grid .grid-4-title h2, .display-grid .grid-4-title .h2 {
+  color: #323037;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+.display-grid .grid-4-title p {
+  color: #aaaaaa;
+  font-size: 1.6rem;
+}
 .display-grid .grid-4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.display-grid .grid-4 .grid-el {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  justify-content: center;
+}
+.display-grid .grid-4 .grid-el:first-child {
+  text-align: end;
+}
+.display-grid .grid-4 .grid-el:nth-child(3) {
+  text-align: end;
+}
+.display-grid .grid-4 .grid-el img {
+  border-radius: 50%;
+  border: 0.4em solid #e3e3e3;
+}
+.display-grid .grid-4 .grid-el .el-text h3, .display-grid .grid-4 .grid-el .el-text .h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #323037;
+}
+.display-grid .grid-4 .grid-el .el-text p:first-of-type {
+  color: #aaaaaa;
+}
+.display-grid .grid-4 .grid-el .el-text p:last-of-type {
+  color: #787777;
+  line-height: 1.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
