@@ -21307,4 +21307,93 @@ nav .nav-left a {
   border-radius: 0.2em;
 }
 
+.products {
+  background-color: #f6f6f6;
+  padding: 3rem 0;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.products .products-title h2, .products .products-title .h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #323037;
+}
+.products .products-title p {
+  color: #aaaaaa;
+  font-size: 1.2rem;
+}
+.products .products-cards {
+  display: flex;
+  gap: 3rem;
+  text-align: center;
+}
+.products .products-cards .card-el {
+  background-color: #fff;
+  border-radius: 0.4em;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.products .products-cards .card-el p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #323037;
+  padding: 1rem 0;
+}
+.products .products-cta {
+  display: flex;
+  gap: 2rem;
+}
+.products .products-cta a {
+  text-decoration: none;
+  padding: 0.8rem 2.4rem;
+  border-radius: 0.3em;
+  font-weight: 600;
+  color: #fff;
+}
+.products .products-cta a:first-child {
+  background-color: #f32853;
+}
+.products .products-cta a:last-child {
+  background-color: #323037;
+}
+
+.about {
+  width: 70%;
+  gap: 3rem;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  padding: 3rem 0;
+}
+.about .about-title h2, .about .about-title .h2 {
+  color: #323037;
+  font-size: 2.8rem;
+  width: 80%;
+}
+.about .about-title p {
+  color: #aaaaaa;
+  font-size: 1.8rem;
+}
+.about .about-text {
+  width: 70%;
+  color: #787777;
+}
+
+.display-grid {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 4rem 0;
+  align-items: center;
+}
+.display-grid .grid-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -4,3 +4,16 @@
 // $grey-bg: #f6f6f6;
 // $border: #e3e3e3;
 // $text: #aaaaaa;
+.display-grid {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 4rem 0;
+    align-items: center;
+
+    .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
