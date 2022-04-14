@@ -4,3 +4,32 @@
 // $grey-bg: #f6f6f6;
 // $border: #e3e3e3;
 // $text: #aaaaaa;
+
+.cta-section {
+    background: linear-gradient(rgba(18, 7, 7, 0.8), rgba(34, 34, 34, 0.8)),
+        url("../images/banner.jpg") no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    gap: 2rem;
+
+    h2 {
+        font-weight: 600;
+        color: $white;
+    }
+
+    p {
+        color: $text;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 600;
+        padding: .8rem 2.2rem;
+        background-color: $red;
+        color: $white;
+        border-radius: .2em;
+    }
+}

@@ -4,3 +4,30 @@
 // $grey-bg: #f6f6f6;
 // $border: #e3e3e3;
 // $text: #aaaaaa;
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $grey-bg;
+    padding: 2.8rem 0;
+
+    .icon-wrap {
+        display: flex;
+        gap: 3rem;
+
+        i {
+            color: $text;
+            font-size: 2rem;
+            padding-bottom: 3rem;
+        }
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 3rem;
+        color: $text;
+        justify-content: center;
+        align-items: center;
+    }
+}

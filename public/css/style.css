@@ -21307,6 +21307,56 @@ nav .nav-left a {
   border-radius: 0.2em;
 }
 
+.cta-section {
+  background: linear-gradient(rgba(18, 7, 7, 0.8), rgba(34, 34, 34, 0.8)), url("../images/banner.jpg") no-repeat center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 2rem;
+}
+.cta-section h2, .cta-section .h2 {
+  font-weight: 600;
+  color: #fff;
+}
+.cta-section p {
+  color: #aaaaaa;
+}
+.cta-section a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.8rem 2.2rem;
+  background-color: #f32853;
+  color: #fff;
+  border-radius: 0.2em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 2.8rem 0;
+}
+footer .icon-wrap {
+  display: flex;
+  gap: 3rem;
+}
+footer .icon-wrap i {
+  color: #aaaaaa;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+footer .footer-links {
+  display: flex;
+  gap: 3rem;
+  color: #aaaaaa;
+  justify-content: center;
+  align-items: center;
+}
+
 .products {
   background-color: #f6f6f6;
   padding: 3rem 0;
