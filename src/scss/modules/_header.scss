@@ -1,0 +1,57 @@
+// $red: #f32853;
+// $dark: #323037;
+// $white: #fff;
+// $grey-bg: #f6f6f6;
+// $border: #e3e3e3;
+// $text: #aaaaaa;
+
+.bg-banner-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(34, 34, 34, 0.6)),
+    url("../images/banner.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+  color: $white;
+  .nav-left {
+    display: flex;
+    gap: 2rem;
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}
+.hero {
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  color: $white;
+  h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
+  p {
+    color: $text;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 40%;
+  }
+  a {
+    text-decoration: none;
+    background-color: $red;
+    color: $white;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    border-radius: 0.2em;
+  }
+}
