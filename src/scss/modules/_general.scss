@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+
+    @include responsive(tablet-p) {
+        font-size: 90%;
+    }
+
+    @include responsive(tablet) {
+        font-size: 80%;
+    }
+
+    @include responsive(phone) {
+        font-size: 62.320%;
+    }
+}
