@@ -21336,11 +21336,12 @@ nav .nav-left a {
 
 .cta-section {
   background: linear-gradient(rgba(18, 7, 7, 0.8), rgba(34, 34, 34, 0.8)), url("../images/banner.jpg") no-repeat center center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem 0;
+  padding: 6.8rem 0;
   gap: 2rem;
 }
 .cta-section h2, .cta-section .h2 {
@@ -21386,7 +21387,7 @@ footer .footer-links {
 
 .products {
   background-color: #f6f6f6;
-  padding: 3rem 0;
+  padding: 6.8rem 0;
   gap: 2rem;
   display: flex;
   flex-direction: column;
@@ -21406,8 +21407,6 @@ footer .footer-links {
 .products .products-cards {
   display: flex;
   gap: 3rem;
-  text-align: center;
-  width: 90%;
 }
 @media (max-width: 320px) {
   .products .products-cards {
@@ -21428,11 +21427,11 @@ footer .footer-links {
   font-weight: 600;
   color: #323037;
   padding: 1rem 0;
+  text-align: center;
 }
 .products .products-cta {
   display: flex;
-  width: 90%;
-  justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 .products .products-cta a {
@@ -21455,7 +21454,7 @@ footer .footer-links {
   margin: auto;
   display: flex;
   align-items: flex-start;
-  padding: 3rem 2rem;
+  padding: 6.8rem 0;
 }
 @media (max-width: 1024px) {
   .about {
@@ -21495,7 +21494,7 @@ footer .footer-links {
   flex-direction: column;
   width: 90%;
   margin: auto;
-  padding: 4rem 0;
+  padding: 6.8rem 0;
   align-items: center;
 }
 @media (max-width: 768px) {

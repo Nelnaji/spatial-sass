@@ -6,81 +6,75 @@
 // $text: #aaaaaa;
 
 .products {
-    background-color: $grey-bg;
-    padding: 3rem 0;
-    gap: 2rem;
+  background-color: $grey-bg;
+  padding: 6.8rem 0;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .products-title {
+    h2 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: $dark;
+    }
+
+    p {
+      color: $text;
+      font-size: 1.2rem;
+    }
+  }
+
+  .products-cards {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    .products-title {
-        h2 {
-            font-size: 2.4rem;
-            font-weight: 600;
-            color: $dark;
-        }
-
-        p {
-            color: $text;
-            font-size: 1.2rem;
-        }
+    gap: 3rem;
+    @include responsive(phone) {
+      flex-direction: column;
     }
 
-    .products-cards {
-        display: flex;
-        gap: 3rem;
+    .card-el {
+      background-color: $white;
+      border-radius: 0.4em;
+      overflow: hidden;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+        rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $dark;
+        padding: 1rem 0;
         text-align: center;
-        width: 90%;
-
-        @include responsive(phone) {
-            flex-direction: column;
-        }
-
-
-        .card-el {
-            background-color: $white;
-            border-radius: .4em;
-            overflow: hidden;
-            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-
-            img {
-                width: 100%;
-            }
-
-            p {
-                text-transform: uppercase;
-                font-weight: 600;
-                color: $dark;
-                padding: 1rem 0;
-            }
-        }
+      }
     }
+  }
 
-    .products-cta {
-        display: flex;
-        width: 90%;
-        justify-content: center;
-        gap: 1rem;
+  .products-cta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 
+    a {
+      text-decoration: none;
+      padding: 0.8rem 2.4rem;
+      border-radius: 0.3em;
+      font-weight: 600;
+      color: $white;
 
-        a {
-            text-decoration: none;
-            padding: .8rem 2.4rem;
-            border-radius: .3em;
-            font-weight: 600;
-            color: $white;
+      &:first-child {
+        background-color: $red;
+      }
 
-
-            &:first-child {
-                background-color: $red;
-            }
-
-            &:last-child {
-                background-color: $dark;
-            }
-
-        }
+      &:last-child {
+        background-color: $dark;
+      }
     }
+  }
 }
